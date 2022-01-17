@@ -1,0 +1,125 @@
+body {
+    background-image: url("./assets/ironthrone.png");
+    background-attachment: fixed;
+    background-position: center;
+    color:gold;
+    font-family: 'GameOfThrones';
+    margin: 0;
+}
+
+.gotHeader {
+    text-align: center;
+}
+
+.js-search-form {
+    text-align: center;
+}
+
+#logo {
+    max-height: 600px;
+    max-width: 600px;
+    margin-bottom: -60px;
+}
+
+@font-face {
+    font-family: GameOfThrones;
+    src: url(./assets/GameofThrones.woff);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: gold;
+    font-family: 'GameOfThrones';
+}
+
+h3 {
+    background-color: black;
+}
+  
+.characters {
+    border: solid gold;
+    background-color: black;
+    width: 400px;
+    height: 375px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+  
+input {
+    width: 320px;
+}
+
+img {
+   max-height: 275px;
+   max-width: 280px;
+}
+
+.output {
+    flex-flow: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: black;
+}
+
+.gotFooter {
+    background-color: #0E0E10;
+    border-top: solid thin gold;
+    position:fixed; bottom: 0;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}   
+
+.footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* CSS For Smaller Screen Sizes */
+
+@media screen and (max-width: 600px) {
+    #logo {
+        max-height: 375px;
+        max-width: 375px;
+        margin-bottom: -40px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    .characters {
+        width: 75%;
+        height: 75%;
+        margin-bottom: 20px;
+    }
+
+    .output {
+        width: 100%;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .gotFooter {
+        font-size: 14px;
+    }
+
+    img {
+       max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #logo {
+        max-height: 275px;
+        max-width: 275px;
+        margin-bottom: -25px;
+    }
+}
